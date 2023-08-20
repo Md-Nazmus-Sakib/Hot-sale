@@ -34,7 +34,7 @@
                 <h1 class="text-3xl font-semibold my-10">Kitchenware</h1>
                 <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
                     <!-- card-01  -->
-                    <div class="card bg-base-100 shadow-2xl ">
+                    <div onclick="handlerButton('kitchen-card-1')" class="card bg-base-100 shadow-2xl ">
                         <figure class="pt-10 rounded-xl bg-slate-300 m-4">
                             <img src="images/prod1.png" alt="kitchen" class="rounded-xl" />
                         </figure>
@@ -46,13 +46,14 @@
                                 <input type="radio" name="rating-2" class="mask mask-star-2 bg-yellow-400" />
                                 <input type="radio" name="rating-2" class="mask mask-star-2 bg-yellow-400" />
                             </div>
-                            <h2 class="card-title">K.Accessories</h2>
-                            <p class="font-semibold text-slate-500"><span>390</span> TK</p>
+                            <h2 id="kitchen-card-1-item-name" class="card-title">K.Accessories</h2>
+                            <p class="font-semibold text-slate-500"><span id="kitchen-card-1-amount">390.00</span> TK
+                            </p>
 
                         </div>
                     </div>
                     <!-- card-02  -->
-                    <div class="card bg-base-100 shadow-2xl">
+                    <div onclick="handlerButton('kitchen-card-2')" class="card bg-base-100 shadow-2xl">
                         <figure class="pt-10 rounded-xl bg-slate-300 m-4">
                             <img src="images/prod2.png" alt="kitchen" class="rounded-xl" />
                         </figure>
@@ -64,13 +65,14 @@
                                 <input type="radio" name="rating-3" class="mask mask-star-2 bg-yellow-400" />
                                 <input type="radio" name="rating-3" class="mask mask-star-2 bg-yellow-400" />
                             </div>
-                            <h2 class="card-title">K.Accessories</h2>
-                            <p class="font-semibold text-slate-500"><span>390</span> TK</p>
+                            <h2 id="kitchen-card-2-item-name" class="card-title">K.Accessories-2</h2>
+                            <p class="font-semibold text-slate-500"><span id="kitchen-card-2-amount">260.00</span> TK
+                            </p>
 
                         </div>
                     </div>
                     <!-- card-03  -->
-                    <div class="card bg-base-100 shadow-2xl">
+                    <div onclick="handlerButton('kitchen-card-3')" class="card bg-base-100 shadow-2xl">
                         <figure class="pt-10 rounded-xl bg-slate-300 m-4">
                             <img src="images/prod3.png" alt="kitchen" class="rounded-xl" />
                         </figure>
@@ -82,8 +84,8 @@
                                 <input type="radio" name="rating-4" class="mask mask-star-2 bg-yellow-400" />
                                 <input type="radio" name="rating-4" class="mask mask-star-2 bg-yellow-400" />
                             </div>
-                            <h2 class="card-title">Home Cooker</h2>
-                            <p class="font-semibold text-slate-500"><span>390</span> TK</p>
+                            <h2 id="kitchen-card-3-item-name" class="card-title">Home Cooker</h2>
+                            <p class="font-semibold text-slate-500"><span id="kitchen-card-3-amount">39.00</span> TK</p>
 
                         </div>
                     </div>
@@ -95,7 +97,7 @@
                 <h1 class="text-3xl font-semibold my-10">Sportswear</h1>
                 <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
                     <!-- Sportswear card-01  -->
-                    <div class="card bg-base-100 shadow-2xl ">
+                    <div onclick="handlerButton('sport-card-1')" class="card bg-base-100 shadow-2xl ">
                         <figure class="pt-10 rounded-xl bg-slate-300 m-4">
                             <img src="images/prod4.png" alt="kitchen" class="rounded-xl" />
                         </figure>
@@ -107,13 +109,13 @@
                                 <input type="radio" name="rating-5" class="mask mask-star-2 bg-yellow-400" />
                                 <input type="radio" name="rating-5" class="mask mask-star-2 bg-yellow-400" />
                             </div>
-                            <h2 class="card-title">K.Accessories</h2>
-                            <p class="font-semibold text-slate-500"><span>390</span> TK</p>
+                            <h2 id="sport-card-1-item-name" class="card-title">Sports black cap</h2>
+                            <p class="font-semibold text-slate-500"><span id="sport-card-1-amount">49.00</span> TK</p>
 
                         </div>
                     </div>
                     <!-- Sportswear card-02  -->
-                    <div class="card bg-base-100 shadow-2xl">
+                    <div onclick="handlerButton('sport-card-2')" class="card bg-base-100 shadow-2xl">
                         <figure class="pt-10 rounded-xl bg-slate-300 m-4">
                             <img src="images/prod5.png" alt="kitchen" class="rounded-xl" />
                         </figure>
@@ -125,13 +127,13 @@
                                 <input type="radio" name="rating-6" class="mask mask-star-2 bg-yellow-400" />
                                 <input type="radio" name="rating-6" class="mask mask-star-2 bg-yellow-400" />
                             </div>
-                            <h2 class="card-title">K.Accessories</h2>
-                            <p class="font-semibold text-slate-500"><span>390</span> TK</p>
+                            <h2 id="sport-card-2-item-name" class="card-title">Full jersey set</h2>
+                            <p class="font-semibold text-slate-500"><span id="sport-card-2-amount">69.00</span> TK</p>
 
                         </div>
                     </div>
                     <!-- Sportswear card-03  -->
-                    <div class="card bg-base-100 shadow-2xl">
+                    <div onclick="handlerButton('sport-card-3')" class="card bg-base-100 shadow-2xl">
                         <figure class="pt-10 rounded-xl bg-slate-300 m-4">
                             <img src="images/prod6.png" alt="kitchen" class="rounded-xl" />
                         </figure>
@@ -143,8 +145,8 @@
                                 <input type="radio" name="rating-7" class="mask mask-star-2 bg-yellow-400" />
                                 <input type="radio" name="rating-7" class="mask mask-star-2 bg-yellow-400" />
                             </div>
-                            <h2 class="card-title">Home Cooker</h2>
-                            <p class="font-semibold text-slate-500"><span>390</span> TK</p>
+                            <h2 id="sport-card-3-item-name" class="card-title">Sport Cates</h2>
+                            <p class="font-semibold text-slate-500"><span id="sport-card-3-amount">159.00</span> TK</p>
 
                         </div>
                     </div>
@@ -155,7 +157,7 @@
                 <h1 class="text-3xl font-semibold my-10">Furniture</h1>
                 <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
                     <!-- Furniture card-01  -->
-                    <div class="card bg-base-100 shadow-2xl ">
+                    <div onclick="handlerButton('furniture-card-1')" class="card bg-base-100 shadow-2xl ">
                         <figure class="pt-10 rounded-xl bg-slate-300 m-4">
                             <img src="images/prod7.png" alt="kitchen" class="rounded-xl" />
                         </figure>
@@ -167,13 +169,14 @@
                                 <input type="radio" name="rating-8" class="mask mask-star-2 bg-yellow-400" />
                                 <input type="radio" name="rating-8" class="mask mask-star-2 bg-yellow-400" />
                             </div>
-                            <h2 class="card-title">K.Accessories</h2>
-                            <p class="font-semibold text-slate-500"><span>390</span> TK</p>
+                            <h2 id="furniture-card-1-item-name" class="card-title">Single Relax Chair</h2>
+                            <p class="font-semibold text-slate-500"><span id="furniture-card-1-amount">185.00</span> TK
+                            </p>
 
                         </div>
                     </div>
                     <!-- Furniture card-02  -->
-                    <div class="card bg-base-100 shadow-2xl">
+                    <div onclick="handlerButton('furniture-card-2')" class="card bg-base-100 shadow-2xl">
                         <figure class="pt-10 rounded-xl bg-slate-300 m-4">
                             <img src="images/prod8.png" alt="kitchen" class="rounded-xl" />
                         </figure>
@@ -185,13 +188,14 @@
                                 <input type="radio" name="rating-9" class="mask mask-star-2 bg-yellow-400" />
                                 <input type="radio" name="rating-9" class="mask mask-star-2 bg-yellow-400" />
                             </div>
-                            <h2 class="card-title">K.Accessories</h2>
-                            <p class="font-semibold text-slate-500"><span>390</span> TK</p>
+                            <h2 id="furniture-card-2-item-name" class="card-title">Children play</h2>
+                            <p class="font-semibold text-slate-500"><span id="furniture-card-2-amount">299.02</span> TK
+                            </p>
 
                         </div>
                     </div>
                     <!-- Furniture card-03  -->
-                    <div class="card bg-base-100 shadow-2xl">
+                    <div onclick="handlerButton('furniture-card-3')" class="card bg-base-100 shadow-2xl">
                         <figure class="pt-10 rounded-xl bg-slate-300 m-4">
                             <img src="images/prod9.png" alt="kitchen" class="rounded-xl" />
                         </figure>
@@ -203,8 +207,9 @@
                                 <input type="radio" name="rating-10" class="mask mask-star-2 bg-yellow-400" />
                                 <input type="radio" name="rating-10" class="mask mask-star-2 bg-yellow-400" />
                             </div>
-                            <h2 class="card-title">Home Cooker</h2>
-                            <p class="font-semibold text-slate-500"><span>390</span> TK</p>
+                            <h2 id="furniture-card-3-item-name" class="card-title">Flexible Sofa</h2>
+                            <p class="font-semibold text-slate-500"><span id="furniture-card-3-amount">339.01</span> TK
+                            </p>
 
                         </div>
                     </div>
@@ -215,10 +220,11 @@
                 <div class="shadow-2xl mt-28 rounded-xl ">
                     <div class="text-center py-16">
                         <h1 class="text-2xl my-4">Have Coupon?</h1>
-                        <div class="join">
-                            <input class="input input-bordered join-item" type="text" placeholder="Coupon" />
-                            <button
-                                class="btn join-item rounded-r-lg bg-pink-500 text-white hover:bg-pink-800 ">Apply</button>
+                        <div class="join flex flex-row justify-center md:flex-col lg:flex-row p-4">
+                            <input id="coupon-input-field" class="input input-bordered join-item" type="text"
+                                placeholder="Type Coupon Code" />
+                            <button id="discount-btn" disabled
+                                class="btn join-item rounded-r-lg md:rounded-lg lg:rounded-r-lg bg-pink-500 text-white hover:bg-pink-800 ">Apply</button>
                         </div>
 
                     </div>
@@ -228,18 +234,18 @@
                 <!-- Items selected -->
                 <div class="shadow-2xl my-10 rounded-xl min-h-96 p-10 ">
 
-                    <div class="h-96">
+                    <div id="item-selected" class="h-96">
 
                     </div>
                     <hr>
                     <!-- amount  -->
                     <div class="text-2xl h-1/4">
-                        <h1>Total Amount= <span>00</span> TK</h1>
-                        <h1>Discount= <span>00</span> TK</h1>
-                        <h1>Total= <span>00</span> TK</h1>
+                        <h1>Total Amount= <span id="total-amount">00</span> TK</h1>
+                        <h1>Discount= <span id="discount-amount">00</span> TK</h1>
+                        <h1>Total= <span id="final-total-amount">00</span> TK</h1>
                     </div>
                     <hr>
-                    <button class="btn bg-pink-500 hover:bg-pink-800 text-white w-full mt-4">Apply</button>
+                    <button class="btn bg-pink-500 hover:bg-pink-800 text-white w-full mt-4">Make Purchase</button>
                 </div>
 
 
@@ -251,6 +257,9 @@
 
     <!-- daisy ui js link  -->
     <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- js link  -->
+    <script src="js/script.js"></script>
 
 </body>
 
