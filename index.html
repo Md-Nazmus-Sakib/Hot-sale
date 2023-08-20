@@ -234,26 +234,45 @@
                 <!-- Items selected -->
                 <div class="shadow-2xl my-10 rounded-xl min-h-96 p-10 ">
 
-                    <div id="item-selected" class="h-96">
+                    <div id="item-selected" class="h-96 overflow-y-scroll">
 
                     </div>
                     <hr>
                     <!-- amount  -->
-                    <div class="text-2xl h-1/4">
+                    <div class="text-2xl md:text-lg lg:text-2xl h-1/4 my-6">
                         <h1>Total Amount= <span id="total-amount">00</span> TK</h1>
                         <h1>Discount= <span id="discount-amount">00</span> TK</h1>
                         <h1>Total= <span id="final-total-amount">00</span> TK</h1>
                     </div>
                     <hr>
-                    <button id="purchase-btn" disabled
+                    <label id="purchase-btn" disabled for="purchase-btn-handler"
                         class="btn bg-pink-500 hover:bg-pink-800 text-white w-full mt-4">Make
-                        Purchase</button>
+                        Purchase</label>
                 </div>
 
 
             </div>
 
 
+        </div>
+
+        <!-- modal -->
+
+        <input type="checkbox" id="purchase-btn-handler" class="modal-toggle" />
+        <div class="modal">
+            <div class="modal-box text-center">
+                <div class="flex justify-center ">
+                    <img src="images/congo.png" alt="">
+                </div>
+
+                <h3 class="font-bold text-lg">Congratulation</h3>
+                <p class="py-4">You Successfully Purchase the Product!!!</p>
+                <div class="modal-action flex justify-center">
+                    <label id="go-home-button" onClick="window.location.reload();" for="purchase-btn-handler"
+                        class="btn bg-pink-500 hover:bg-pink-800 text-white ">Go
+                        Home</label>
+                </div>
+            </div>
         </div>
     </main>
 

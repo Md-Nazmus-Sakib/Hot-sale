@@ -62,3 +62,14 @@ document.getElementById('discount-btn').addEventListener('click', function () {
 
 // purchase button
 
+// document.getElementById('go-home-button').addEventListener('click', function () {
+//     const itemSelect = document.getElementById('item-selected');
+//     itemSelect.innerText = '';
+//     const totalAmount = document.getElementById('total-amount');
+//     totalAmount.innerText = '00';
+//     const discountAmount = document.getElementById('discount-amount');
+//     discountAmount.innerText = '00';
+//     const finalTotalAmount = document.getElementById('final-total-amount');
+//     finalTotalAmount.innerText = '00';
+// })
+
